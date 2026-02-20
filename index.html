@@ -24,11 +24,19 @@
     <article role="article">
       <header>
         <p>
-        <span itemscope><meta itemprop="name" content="Mini PC" /></span>
+          <span itemscope>
+            <!--  itemprop: adds a properties to an item-->
+            <meta itemprop="name" content="Mini PC" />
+          </span>
+          <!-- Figure element required for figcaption to function-->
         <figure>
+          <!-- draggable: applied to the img element allows/denies the ability to drag an image -->
           <img draggable="false" src="images/miniPC.png" alt="Mini PC" width="310" height="375" class="flowRight" />
+          <!-- Figcaption: this element adds a short comment within a figure -->
           <figcaption>MiniPC</figcaption>
-        </figure>Starting a <abbr>homelab</abbr> is one of the best ways to learn real-world IT skills. A homelab can start with just
+          <!-- Abbr: this element applies the css style of abbr onto the element-->
+        </figure>Starting a <abbr>homelab</abbr> is one of the best ways to learn real-world IT skills. A homelab can
+        start with just
         a single computer that you don't actively use. It allows you to experiment with servers, networking, storage,
         and cybersecurity and dip your toes into the professional field that operate large data centers on a day to day
         basis.
@@ -56,6 +64,7 @@
       <a href="https://roadtohomelab.blog/homelab-homepage-guide/" title="roadtohomelab" target="_blank">Homelab
         Services</a>
     </p>
+    <!-- Address element, provides contact info to the article or entire document-->
     <address>
       <a href="mailto:fake@example.com">fake@example.com</a>
       <a href="tel:+14155550132">+1 (415) 555‑0132</a>
